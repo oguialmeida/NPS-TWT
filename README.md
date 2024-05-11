@@ -6,9 +6,9 @@
 ### Instalação
 Para usar o SocialMediaAPIClient, você precisa instalar a biblioteca requests que é utilizada para fazer requisições HTTP e pode ser facilmente instalada via pip:
 
-ˋˋˋbash
-pip install requests
-ˋˋˋ
+```bash
+ pip install requests
+```
 
 ### Login
 - login_email_username(username, password): Realiza o login com um nome de usuário ou email e senha.
@@ -28,3 +28,11 @@ pip install requests
 - get_message_conversation(username=None, user_id=None, cursor=None): Obtém uma conversa de mensagem com um usuário específico.
 - send_message(message, to_user_name=None, to_user_id=None, media_id=None): Envia uma mensagem para um usuário.
 
+
+## Authors
+
+- [@Guilherme Gomes](https://www.github.com/oguialmeida)
+
+- [@Marcos Vinicius](https://www.github.com/TgdAnubis)
+
+- [@Pedro Wilson](https://www.github.com)
